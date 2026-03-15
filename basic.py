@@ -183,4 +183,20 @@ for i in n:
     rev=i+rev
 print(rev)
 
+# reverse and add to list:
+n="anushka"
+l=[ ]
+rev=n[::-1]
+l.append(rev)
+print(l)
+
+# =====================================================================================================================
+
+# wap to check weather a number is palindrom:
+n="anushka"
+if n==n[::-1]:
+    print("yes")
+else:
+    print("no")
+
 # 
