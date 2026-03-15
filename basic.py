@@ -121,9 +121,66 @@ print(isprime(11))
 
 # ==============================================================================
 
+# wap to print fibnocci series:
+n=int(input("enter a number: ")
+a,b=0,1
+      for i in range(n): 
+          print(a,end=" ")
+          a,b=b,a+b
+
+# using while loop:
+n=int(input("enter a number: ")
+a=0
+b=1
+i=0
+while i<n:
+    print(a,end=" ")
+    a,b=b,a+b
+    i=+1
+
+# using function:
+def fibnocci(n):
+    a,b=0,1
+    for i in range(n):
+        print(a,end=" ")
+        a,b=b,a+b
+fibnocci(n(12))
 
 
+# ================================================================================================
 
+# wap to reverse a number:
+n="123"
+rev=n=n[::-1]
+print(rev)
 
+# without slicing
+n=int(input("enter a number: ")
+rev=0
+while n>0:
+    rev=rev*10+n%10
+    n//==10
+print(rev)
 
+# using function:
+def reverse(n):
+    while n>0:
+        rev=rev*10+n%10
+        n//==10
+    return rev
+print(rev(12))
 
+# ================================================================================================================
+
+# wap to reverse a string:
+n="anushka"
+rev=n[::-1]
+print(rev)
+
+# using loop:
+n="anushka"
+for i in n:
+    rev=i+rev
+print(rev)
+
+# 
