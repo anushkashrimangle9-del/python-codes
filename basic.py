@@ -192,4 +192,45 @@ print(l)
 
 # =====================================================================================================================
 
+# wap to check weather a string is palindrom.
+s="anushka"
+if s==s[::-1]:
+    print("this string is palindrom")
+else:
+    print("this string is not palindrom")
 
+# using loop
+s="shrimangle"
+rev=" "
+for i in s:
+    rev=i+s:
+if s==rev:
+    print("this string is palindrom")
+else:
+    print("this string is not palindrom")
+
+# using function:
+def is_palindrom(s):
+    if s==s[::-1]:
+        print("this string is palindrom")
+    else:
+        print("this string is not palindrom")
+
+# ===========================================================================================
+
+# wap to count vowel and consonent in string
+s="shrimangle"
+vowel="aeiouAEIOU"
+v_c=0
+c_c=0
+for i in s:
+    if i in vowel:
+        v_c+=1
+    else:
+        c_c+=1
+print(v_c)
+print(c_c)
+
+
+    
+    
