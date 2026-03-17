@@ -242,9 +242,35 @@ for i in l:
         freq{i}+=1
 print(freq)
 
+# using count:
+lst=[1,2,3,2,4,2,5]
+num=2
+freq=lst.count(2)
+print(freq)
+
+using list comprehension:
+n=[1,2,3,2,4,2]
+num=2
+freq=len([i for i in n if i==num])
+print(freq)
+
 # =============================================================================================
 
-# 
+# wap to find sum of digits in number:
+n=int(input("enter a number")
+sum_digit=0
+for digit in n:
+    sum_digit+=int(digit)
+print(sun_digit)
+
+# using list comprehansion:
+n=int(input("enter a number: ")
+sum=sum([int[i] for i in n])
+print(sum)
+
+# ==============================================================================================
+
+
 
 
 
